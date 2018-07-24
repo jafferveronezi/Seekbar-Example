@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.javatechig.droid.ui.TelaExemplo">
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativeLayout_gerenciar_dispositivo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageview_dispositivo_em_uso"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:src="@drawable/ico_check"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageview_dispositivo_habilitado"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:src="@drawable/device_check"-->
+            <!--android:layout_toRightOf="@+id/imageview_dispositivo_em_uso"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/nome_do_dispositivo"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Android Sony D6603"-->
+            <!--android:layout_toRightOf="@+id/imageview_dispositivo_habilitado"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/informacao_inclusao_dispositivo"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="inclusao: 18/12/2015"-->
+            <!--android:layout_toRightOf="@+id/imageview_dispositivo_habilitado"-->
+            <!--android:layout_below="@+id/nome_do_dispositivo"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/informacao_dipositivo_em_uso"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="dispositivo em uso"-->
+            <!--android:layout_toRightOf="@+id/imageview_dispositivo_habilitado"-->
+            <!--android:layout_below="@+id/informacao_inclusao_dispositivo"-->
+            <!--android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/slider"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/relativeLayout_gerenciar_dispositivo"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--<include layout="@layout/slider"/>-->
+
+    <!--</RelativeLayout>-->
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</RelativeLayout>

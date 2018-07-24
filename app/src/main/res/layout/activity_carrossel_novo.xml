@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.javatechig.droid.ui.TelaExemplo">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_carrosselNovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/teste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+
+<!--<RelativeLayout-->
+    <!--android:id="@+id/relativelayout_item1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/relativelayout_carrosselNovo1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="10dp">-->
+        <!--<ImageView-->
+            <!--android:id="@+id/imageview_cartao"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:src="@drawable/ico_wallet"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textview_conta_santander"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_toRightOf="@+id/imageview_cartao"-->
+            <!--android:text="Conta Santander 0001/02.123456.1"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/imageview_seta"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/ico_check"-->
+            <!--android:layout_alignParentRight="true"/>-->
+    <!--</RelativeLayout>-->
+
+<!--</RelativeLayout>-->
+
+            <ListView
+                android:id="@+id/listview_carrossel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/teste"/>
+
+</RelativeLayout>
+
+</RelativeLayout>
